@@ -696,7 +696,11 @@ background-color: white;
 	.hovereffect{
 		margin: 10px 0;
 	}
+	.col4fixed{
+		padding-top: 0px;
+		padding-bottom: 15px;
 
+	}
 
 }
 
@@ -727,11 +731,7 @@ background-color: white;
 		margin-left: 50%;
 		/*text-align:center;*/
 	}
-	.col4fixed{
-		padding-top: 0px;
-		padding-bottom: 15px;
-
-	}
+	
 	.hovereffect img {
 		width: 100%;
 	}
