@@ -459,10 +459,14 @@ background-color: white;
 	transition-delay:.2s;
 }
 
-/* media queries  部分 */
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-    .navbar-toggle-fixed{
+
+
+
+/*------------------------------------rwd------------------------------------*/
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (max-width: 576px){
+	.navbar-toggle-fixed{
     	margin-top: 40px;
     }
 
@@ -498,15 +502,6 @@ background-color: white;
 	.hovereffect{
 		margin: 10px 0;
 	}
-}
-
-
-
-/*------------------------------------rwd------------------------------------*/
-/*Small devices (landscape phones, 576px and up)*/
-
-@media (max-width: 576px){
-
 	.selfpic{
 	    width: 75%;
     	margin: auto;
