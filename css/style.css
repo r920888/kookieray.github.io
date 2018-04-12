@@ -136,16 +136,7 @@ background-color: white;
 	float: left: 
 }
 
-.col4fixed{
-	padding-top: 15px;
-	padding-bottom: 15px;
 
-}
-
-.col-lg-12 p {
-	float: left;
-	line-height: normal;
-}
 
 .navbar-toggle-fixed{
 	border: 1px solid #060606;
@@ -161,6 +152,16 @@ background-color: white;
 
 /*------------------------------------內容------------------------------------*/
 
+.col4fixed{
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.col-lg-12 p {
+	float: left;
+	line-height: normal;
+}
 .intro-title{
 	font-size: 3vw;
     line-height: 2vw;
@@ -529,9 +530,40 @@ background-color: white;
 		float: none;
 	}
 
+	.hovereffect img {
+		width: 100%;
+	}
+
+	.col4fixed{
+		padding-top: 0px;
+		padding-bottom: 15px;
+
+	}
+
+	.hovereffect h2 {
+		text-transform:uppercase;
+		color:#fff;
+		text-align:center;
+		position:relative;
+		font-size:17px;
+		background:rgba(0,0,0,0.6);
+		-webkit-transform:translatey(0px);
+		-ms-transform:translatey(0px);
+		transform:translatey(0px);
+		-webkit-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+		padding:10px;
+	}
+
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+	.hovereffect img {
+		width: 100%;
+	}
 
 	.navbar ul{
 		/*left: 42%;*/
@@ -699,6 +731,14 @@ background-color: white;
 		margin: auto;
 		margin-left: 50%;
 		/*text-align:center;*/
+	}
+	.col4fixed{
+		padding-top: 0px;
+		padding-bottom: 15px;
+
+	}
+	.hovereffect img {
+		width: 100%;
 	}
 
 }
