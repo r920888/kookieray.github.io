@@ -17,22 +17,29 @@
     <link rel="dns-prefetch" href="https://kookierays.com">
   </head>
   <body class="scrollbar scrollbar-morpheus-den">
-    <div class="navbar " role="navigation">
-  		<div class="container">
-  			
+  	<div class="scrolltop topbtn" >
+	</div>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+  		<div class="container ">
   			<div class="navbar-header">
   				<button type="button" class="navbar-toggle navbar-toggle-fixed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html"><img class="img-responsive " src="img/ray-logo.gif" ></a>  				
+				<a class="navbar-brand" href="index.html"><img width="60" height="69" class="d-inline-block align-top" src="img/ray-logo-1.png" ></a>  				
   			</div>  			
-	  		<div class="collapse navbar-collapse">
+	  		<div class="collapse navbar-collapse" id="myNavbar">
 	  			
-	  			<ul class="nav navbar-nav">
+	  			<ul class="nav navbar-nav navbar-right">
 					<li class="nav_graphic">
-						<a href="index.html">Work</a>
+						<a href="index.html#illu-sec">Illustration</a>
+					</li>
+					<li class="nav_graphic">
+						<a href="index.html#graphic-sec">Graphic</a>
+					</li>
+					<li class="nav_graphic">
+						<a href="index.html#web-sec">Web</a>
 					</li>
 					<li class="nav_resume">
 						<a href="r/201802-謝秉叡-履歷.pdf" target="_blank">Resume</a>
@@ -41,38 +48,40 @@
 						<a href="about.html">About</a>
 					</li>
 				</ul>
-	  		</div>
-	  		<hr>
+	  		</div>	  		
 	  	</div>
   	</div>
-	<div class="container web-index">
-		<h2>杰新實業</h2>
-		<div class="row row-web">
-			<div class="col col-6 col-web">
-				<p class="p-bold">我的職位 ···</p>
-				<p>設計助理,網頁設計師</p>
-				<p class="p-bold">使用 ···</p>
-				<p>Sublime Text , Photoshop , HTML , CSS3 , JavaScript</p>
+  	<div id="js-web-sec">
+		<div class="container web-index">
+			<h2>杰新實業</h2>
+			<div class="row row-web">
+				<div class="col col-6 col-web">
+					<p class="p-bold">我的職位 ···</p>
+					<p>設計助理,網頁設計師</p>
+					<p class="p-bold">使用 ···</p>
+					<p>Sublime Text , Photoshop , HTML , CSS3 , JavaScript</p>
+				</div>
+				<div class="col col-6 col-web">
+					<p class="p-bold">團隊 ···</p>
+					<p>凱斯整合行銷</p>
+				</div>
 			</div>
-			<div class="col col-6 col-web">
-				<p class="p-bold">團隊 ···</p>
-				<p>凱斯整合行銷</p>
+			<div class="row row-web">
+				<div class="col col-6">
+					<p class="p-bold">專案介紹 ···</p>
+					<p>業主(杰新實業)希望能製作一個小平台詳載都更資料及進度，那我們以使用者為出發點，詳細分類都更所有項目，包括公告、進度、會議記錄、設計圖、計畫書以及紀錄照片，讓使用者能快速瀏覽資料。</p>
+				</div>
 			</div>
+			<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page1.jpg">
+			<p class="fade">公告訊息頁面設計簡單清楚，色調也符合企業視覺。</p>
+			<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page2.jpg">
+			<p class="fade">都更進度頁面能從網頁後台隨時調整進度標示。</p>
+			<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page3.jpg">
+			<p class="fade">影像專區使用小燈窗表現方式，可以快速瀏覽大量照片。</p>
 		</div>
-		<div class="row row-web">
-			<div class="col col-6">
-				<p class="p-bold">專案介紹 ···</p>
-				<p>業主(杰新實業)希望能製作一個小平台詳載都更資料及進度，那我們以使用者為出發點，詳細分類都更所有項目，包括公告、進度、會議記錄、設計圖、計畫書以及紀錄照片，讓使用者能快速瀏覽資料。</p>
-			</div>
-		</div>
-		<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page1.jpg">
-		<p class="fade">公告訊息頁面設計簡單清楚，色調也符合企業視覺。</p>
-		<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page2.jpg">
-		<p class="fade">都更進度頁面能從網頁後台隨時調整進度標示。</p>
-		<img class="web-img-prv fade img-fluid" alt="Responsive image" src="img/js-web/page3.jpg">
-		<p class="fade">影像專區使用小燈窗表現方式，可以快速瀏覽大量照片。</p>
-	    <hr>
-	    <footer>
+	</div>
+	<footer>
+    	<div class="container">
 	        <div class="row">
 	            <div class="col-lg-12  footer-nav">
 	                <ul>
@@ -89,9 +98,8 @@
 	                <p>Copyright &copy 2018, Kookieray</p>
 	            </div>
 	        </div>
-	    </footer>
-	</div>
-
+        </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -127,6 +135,15 @@
 		  $(window).scroll(function(){fade(false);}); //fade elements on scroll
 		});
     </script>
-
+    <script>
+		$(window).scroll(function() {
+		    if ($(this).scrollTop() > 50 ) {
+		        $('.scrolltop:hidden').stop(true, true).fadeIn();
+		    } else {
+		        $('.scrolltop').stop(true, true).fadeOut();
+		    }
+		});
+		$(function(){$(".topbtn").click(function(){$("html,body").animate({scrollTop:$(".scrollbar").offset().top},"1000");return false})})
+	</script>
   </body>
 </html>
