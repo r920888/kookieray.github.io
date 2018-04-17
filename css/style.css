@@ -212,11 +212,12 @@ body {
 }
 
 
+
 #web-sec{
 	background: white;
 }
 
-#about-sec,#js-web-sec,#bd-web-1-sec,#bd-2018tgs-sec{
+#about-sec,#js-web-sec,#bd-web-1-sec,#bd-2018tgs-sec,#gamebtn-sec{
 	background: #f2f2f2 100% 0 no-repeat fixed;
 	height: 100%;
 }
