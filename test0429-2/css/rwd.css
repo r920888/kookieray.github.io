@@ -47,9 +47,6 @@
 	.join-container {
 	    width: 100%;
 	}
-	.c-video-container a video{
-		display: block;
-	}
 }	
 
 /*for 平板+手機裝置*/
@@ -58,6 +55,9 @@
 		display: none;
 	} 
 	.m-nav{
+		display: block;
+	}
+	.c-video-container a video{
 		display: block;
 	}
 }
