@@ -1110,7 +1110,7 @@ h2.c-id{
 .c-video-container a video{
 	display: none;
 	position: relative;
-	width: 105%;
+	width: 210px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
