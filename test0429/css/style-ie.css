@@ -1,0 +1,36 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.app{
+
+	}
+	.p0-btns a span{
+		align-items: center;
+	}
+	section#p1{
+		flex-direction: column;
+	}
+	.p1-a1-logo{
+		-webkit-animation: none;
+	}
+	.webp .p0-logo{
+	background: url('../imgp/logo-ani.webp') no-repeat center bottom;
+	}
+	.no-webp .p0-logo{
+		background: url('../img/logo-ani.png') no-repeat center bottom;
+	}
+	section#p0{
+		flex-direction: column;
+	}
+	.p2-slide-l,.join-slide-content,.join-content,.join-container{
+		flex-direction: column;
+	}
+	.steamadwards{
+		flex-direction: column;
+		align-items: center;
+	}
+	section#p3{
+		flex-direction: column;
+	}
+	section#p6{
+		flex-direction: column;
+	}
+}

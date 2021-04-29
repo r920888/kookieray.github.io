@@ -1,0 +1,889 @@
+/*for 電腦裝置 1-2K*/
+@media screen and (min-width:1921px) and (max-width:2560px){
+	section{
+		background-size: cover !important;
+	}
+}
+
+
+/*for 電腦裝置*/
+@media screen and (min-width:1024px) and (max-width:1280px){
+	ul#nav li {
+	    margin: 0 20px;
+	}
+	.header-fast a {
+	    margin-left: 10px;
+	    width: max-content;
+	    height: auto;
+	    line-height: unset;
+	    font-size: 1rem;
+    	font-weight: 400;
+    	padding: 5px 1.25rem;
+	}
+	a#header-play {
+	    line-height: unset;
+	}
+	.join-container {
+	    width: 100%;
+	}
+}	
+
+@media screen and (min-width:1024px) and (max-width:1042px){
+	ul#nav li {
+	    margin: 0 15px;
+	}
+	.header-fast a {
+	    margin-left: 10px;
+	    width: max-content;
+	    height: auto;
+	    line-height: unset;
+	    font-size: 1rem;
+    	font-weight: 400;
+    	padding: 5px 1.25rem;
+	}
+	a#header-play {
+	    line-height: unset;
+	}
+	.join-container {
+	    width: 100%;
+	}
+}	
+
+/*for 平板+手機裝置*/
+@media screen and (max-width:1024px){
+	header{
+		display: none;
+	} 
+	.m-nav{
+		display: block;
+	}
+}
+
+/*for 平板裝置(768px<螢幕尺寸<1024px)*/
+@media screen and (min-width:768px) and (max-width:1024px){
+
+	.p0-title h1 {
+	    font-size: 3.5rem;
+	}
+	.p1-app {
+	    position: relative;
+	    width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	}
+	.p1-title {
+	    width: max-content;
+	    margin: 0 auto;
+	}
+	.chara-content-in {
+	    padding-left: 00px;
+	    justify-content: flex-end;
+	    align-items: center;
+	}
+	.chara-info {
+	    width: 500px;
+	}
+	#swordshield .c-img {
+	    background-size: 45% !important;
+    	background-position-x: -10% !important;
+	}
+	#poleaxe .c-img{
+		background-position-x: -25% !important;
+	    background-size: 75% !important;
+	    background-position-y: bottom !important;
+	}
+	#spear .c-img {
+		background-position-x: -30% !important;
+	    background-size: 55% !important;
+    	background-position-y: bottom !important;
+	}
+	#shortbow .c-img {
+	    background-position-x: -80% !important;
+	    background-size: 80% !important;
+    	background-position-y: bottom !important;
+	}
+	#nodachi .c-img{
+		background-position-x: -50% !important;
+	    background-size: 60% !important;
+    	background-position-y: bottom !important;
+	}
+	#gun .c-img{
+		background-position-x: -10% !important;
+		background-size: 60% !important;
+    	background-position-y: bottom !important;
+	}
+	#doubleknife .c-img {
+		background-position-x: -50% !important;
+	    background-size: 60% !important;
+    	background-position-y: bottom !important;
+	}
+	#longbow .c-img{
+		background-position-x: 180% !important;
+		background-size: 90% !important;
+    	background-position-y: bottom !important;
+	}
+	#longknife .c-img{
+		background-position-x: -55% !important;
+		background-size:60% !important;
+    	background-position-y: bottom !important;
+	}
+	#knifeshield .c-img{
+		background-position-x: -50% !important;
+		background-size:60% !important;
+    	background-position-y: bottom !important;
+	}
+	#hammer .c-img{
+		background-position-x: -30% !important;
+		background-size:75% !important;
+    	background-position-y: bottom !important;
+	}
+	.p2-container {
+	    width: 90%;
+	}
+	.p2-container > h1 {
+	    font-size: 2.2rem;
+	}
+	.p2-slide-l-container {
+	    width: 100%;
+	}
+	.p2-slider-l a {
+	    width: 100%;
+	}
+	.p2-slide-m {
+	    width: 100%;
+	}
+	.p2-slider-m span {
+	    width: 100%;
+	}
+	.join-container {
+	    width: 100%;
+	}
+	.join-content {
+	    width: 90%;
+	}
+	.join-slide-content {
+	    width: 100%;
+	}
+	.p4-container {
+	    width: 100%;
+	}
+	.p4-content {
+	    width: 100%;
+	}
+	a.p4-box {
+	    width: 30%;
+	    margin: 0 10px;
+	}
+	.p4-a {
+	    width: 100%;
+	    height: 150px;
+	    border: 0;
+	}
+	.p4-a span {
+	    width: 100%;
+	    height: 150px;
+	    background-size: contain !important;
+	}
+}
+
+/*for 一般電腦裝置(螢幕尺寸>1025px)*/
+@media screen and (max-width:1025px){  
+	a#p0-pc{
+		display: none;
+	}
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+	
+
+}
+
+
+/*for 手機裝置(螢幕尺寸<768px)*/
+@media screen and (max-width:767px){
+	.p0-bg{
+		display: none;
+	}
+	section#p0{
+		height: 100vh;
+		background-position-x: 0 !important;
+	}
+	.p0-container{
+		width: 100%;
+	}
+	.p0-logo{
+		width: 70%;
+		background-size: contain !important;
+		animation: unset;
+		transition: unset;
+	}
+	.webp .p0-logo{
+		background: url('../imgp/logo-zh.webp') no-repeat bottom;
+	}
+	.no-webp .p0-logo{
+		background: url('../img/logo-zh.png') no-repeat bottom;
+	}
+	.p0-title{
+		width: 100%;
+		margin: 30px auto 30px;
+	}
+	.p0-title:after{
+		display: none;
+	}
+	.p0-title h3 {
+	    font-size: 1.15rem;
+    	line-height: 1rem;
+	}
+	.p0-title h1 {
+	    font-size: 2.8rem;
+	    line-height: 3rem;
+	    margin: 20px 0 0px 0;
+	}
+	.p0-title h1 br{
+		display: block;
+	}
+	.p0-btns{
+		width: 100%;
+	}
+	.p0-btns a {
+	    width: 70%;
+	    padding:0 10%;
+	    margin: 10px 0;
+	    display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -moz-box;
+		flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+	.p0-btns p {
+	    text-align: center;
+	    width: 60%;
+	}
+	a#p0-steam span {
+	    position: relative;
+	    left: unset;
+	}
+	a#p0-steam span i {
+	    font-size: 3.77rem;
+	}
+	a#p0-pc > div{
+		position: relative;
+	    left: unset;
+	}
+	a#p0-pc > div span {
+	    width: 59px;
+	    height: 59px;
+	}
+	p.p0-btn-note {
+	    font-size: 0.875rem;
+	}
+	.p0-bg video {
+	    top: 50%;
+	    left: 0;
+	    right: unset;
+	    bottom: unset;
+	    transform: translateY(-50%);
+	}
+	section#p1 {
+	    height: 100vh;
+	}
+	.p1-app {
+	    width: 100%;
+	}
+	.p1-title {
+	    width: 90%;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 10px auto;
+	}
+	.p1-title h1 {
+	    font-size: 2.5rem;
+	    line-height: 2.5rem;
+	    text-align: center;
+	    margin: 0 0 5px 0;
+	    padding: 0;
+	    border-right: 0;
+	}
+	.p1-title p {
+	    font-size: 1rem;
+	    line-height: 1.375rem;
+	    text-align: center;
+	}
+	.p1-title p br{
+		display: none;
+	}
+	.chara {
+	    position: relative;
+	    width: 90%;
+	    height: calc(100vh - 160px);
+	    margin: 5px auto;
+	    border: 0;
+	}
+	.chara-container .slick-list{
+		overflow: hidden !important;
+	}
+	.webp .chara-container{
+		background: unset;
+	}
+	.no-webp .chara-container{
+		background: unset;
+	}
+	.chara-container .slick-slide{
+		
+	}
+	.chara-content{
+		height: 100%;
+	}
+	.chara-content-in {
+	    width: 99%;
+	    height: auto;
+	    padding: 0px;
+	    display: block !important;
+	    display: -ms-block;
+	    display: -moz-block;
+	    flex-wrap: unset;
+	    justify-content: unset;
+	    align-items: unset;
+	    border: 1px solid #272727;
+	}
+	.chara-info {
+	    width: 100%;
+	    height: auto;
+	    padding: 5px;
+	}
+	.c-video-container{
+		display: none;
+	}
+	.c-icn {
+	    width: 60px;
+	    height: 60px;
+	}
+	.c-icn span {
+	    width: 55px;
+	    height: 55px;
+	}
+	.c-icn span img {
+	    height: 80%;
+	}
+	h2.c-id {
+	    font-size: 3rem;
+	    line-height: 3rem;
+	    margin: 5px 0;
+	    padding-bottom: 5px;
+	}
+	.chara-info p {
+	    font-size: 1rem;
+	    line-height: 1.25rem;
+	    margin: 10px 0;
+	}
+	.chara-info p br{
+		display: none;
+	}
+	.c-img {
+	    position: relative;
+	    width: 100%;
+	    height: calc(100vh - 380px);
+	}
+	.webp #swordshield .c-img{
+		background-position-x: center;
+		background-position-y:20px; 
+	}
+	.no-webp #swordshield .c-img{
+		background-position-x: center;
+		background-position-y:20px; 
+	}
+	.webp #poleaxe .c-img{
+		background-position-x: 10%;
+		background-position-y:20px; 
+	}
+	.no-webp #poleaxe .c-img{
+		background-position-x: 10%;
+		background-position-y:20px; 
+	}
+	.webp #spear .c-img{
+		background-position-x: 60%;
+		background-position-y:20px; 
+	}
+	.no-webp #spear .c-img{
+		background-position-x: 60%;
+		background-position-y:20px; 
+	}
+	.webp #shortbow .c-img{
+		background-position-x: 20%;
+		background-position-y:20px; 
+	}
+	.no-webp #shortbow .c-img{
+		background-position-x: 20%;
+		background-position-y:20px; 
+	}
+	.webp #nodachi .c-img{
+		background-position-x: 75%;
+		background-position-y:20px; 
+	}
+	.no-webp #nodachi .c-img{
+		background-position-x: 75%;
+		background-position-y:20px; 
+	}
+	.webp #gun .c-img{
+		background-position-x: 10%;
+		background-position-y:20px; 
+	}
+	.no-webp #gun .c-img{
+		background-position-x: 10%;
+		background-position-y:20px; 
+	}
+	.webp #doubleknife .c-img{
+		background-position-x: 30%;
+		background-position-y:20px; 
+	}
+	.no-webp #doubleknife .c-img{
+		background-position-x: 30%;
+		background-position-y:20px; 
+	}
+	.webp #longbow .c-img{
+		background-position-x: 35%;
+		background-position-y:20px; 
+	}
+	.no-webp #longbow .c-img{
+		background-position-x: 35%;
+		background-position-y:20px; 
+	}
+	.webp #longknife .c-img{
+		background-position-x: 80%;
+		background-position-y:20px; 
+	}
+	.no-webp #longknife .c-img{
+		background-position-x: 80%;
+		background-position-y:20px; 
+	}
+	.webp #knifeshield .c-img{
+		background-position-x: 60%;
+		background-position-y:20px; 
+	}
+	.no-webp #knifeshield .c-img{
+		background-position-x: 60%;
+		background-position-y:20px; 
+	}
+	.webp #hammer .c-img{
+		background-position-x: 20%;
+		background-position-y:20px; 
+	}
+	.no-webp #hammer .c-img{
+		background-position-x: 20%;
+		background-position-y:20px; 
+	}
+	button#p1-prev,button#p1-next{
+		display: block;
+	}
+	.p1bgpr-1,.p1bgpr-2,.p1line-1,.p1line-2{
+		display: none !important;
+	}
+	section#p2{
+		height: 70vh;
+	}
+	.p2-container{
+		width: 90%;
+		padding-top: 0;
+	}
+	.p2-container > h3 {
+	    font-size: 1rem;
+    	line-height: 1.15rem;
+    	margin: 10px 0;
+	}
+	.p2-container > h1 {
+	    font-size: 2rem;
+	    line-height: 2.3rem;
+	    margin: 20px 0 0px 0;
+	}
+	.p2-content {
+	    margin: 10px auto 0;
+	}
+	.p2-slide-l {
+	    height: auto;
+	}
+	.p2-slide-m{
+		display: none;
+	}
+	.p2-slide-l-container {
+	    width: 100%;
+	    height: 100%;
+	}
+	.p2-slider-l {
+	    width: 100%;
+	    height: 100%;
+	}
+	.p2-slider-l a {
+	    width: 300px;
+	    height: 169px;
+	    background-size: contain !important;
+	    margin: 20px auto;
+	}
+	.p2-slider-l-bg{
+		display: none;
+	}
+	.p2-slider-l a iframe{
+		display: block;
+	}
+	.p2-slider-l:after{
+		display: none;
+	}
+	button#p2-prev{
+		left: -10px;
+	}
+	button#p2-next{
+		right: -10px;
+	}
+	.p2bgpr-1{
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		width: 100%;
+		height: 950px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%) rotateY(0deg);
+		z-index: 0;
+		transition: 0.3s linear;
+	}
+	.p2line-1{
+		display: none !important;
+	}
+	section#p3 {
+	    height: auto;
+	    overflow: hidden;
+	}
+	.p3-container > h3 {
+	    font-size: 1rem;
+    	line-height: 1.15rem;
+    	margin: 10px 0;
+	}
+	.p3-container > h1 br{
+		display: block;
+	}
+	.p3-container > h1 {
+	    font-size: 2rem;
+	    line-height: 2.3rem;
+	    margin: 20px 0 0px 0;
+	}
+	.p3-container {
+	    width: 90%;
+	    height: auto;
+	}
+	.p3-content {
+	    height: auto;
+	    margin: 55px auto;
+	}
+	.join-container {
+	    width: 100%;
+	    height: 100%;
+	    border-top: 1px solid rgba(39,39,39,0.3);
+	    border-bottom: 1px solid rgba(39,39,39,0.3);
+	}
+	.join-content {
+	    width: 100%;
+	    height: 100%;
+	}
+	.join-slide {
+	    width: 100%;
+	    height: 60vh;
+	}
+	.join-slide-content {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.steamadwards {
+	    width: 300px;
+	    height: 300px;
+	    background-size: contain !important;
+	}
+	.steamadwards h1 {
+	    font-size: 2rem;
+	    line-height: 2rem;
+	    margin: 0 0 5px 0;
+	}
+	.steamadwards h2 {
+	    font-size: 1.5rem;
+	    line-height: 1.5rem;
+	    margin: 0 0 10px 0;
+	    padding-bottom: 5px;
+	}
+	.steamadwards p {
+	    font-size: 1.15rem;
+	    line-height: 1.25rem;
+	    margin: 0 0 20px 0;
+	}
+	.steamadwards img {
+	    width: 40%;
+	}
+	.join-ytr {
+	    width: 100%;
+	    height: 100%;
+	    border: 0;
+	}
+	.ytr-info {
+	    justify-content: center;
+	    padding-left: 0px;
+	    padding-bottom: 9px;
+	}
+	.ytr-info:before {
+	    left: 50%;
+	    transform: translateX(-50%);
+	    bottom: 43px;
+	}
+	.join-ytr a {
+	    width: 100%;
+	    height: 100%;
+	    background-size: contain !important;
+	    filter: brightness(100%) grayscale(30%);
+	    -webkit-filter: brightness(100%) grayscale(30%);
+	    -ms-filter: brightness(100%) grayscale(30%);
+	    -o-filter: brightness(100%) grayscale(30%);
+	}
+	.join-ytr a:before {
+	    transform: translate(-50%,-50%);
+	}
+	.join-ytr a:after {
+	    height: 100%;
+	    background-image: linear-gradient(rgba(39,39,39,0),rgba(39,39,39,0.1));
+	}
+	button#p3-prev {
+	    background-color: rgba(255,255,255,0);
+	    left: -20px;
+	}
+	button#p3-next {
+	    background-color: rgba(255,255,255,0);
+	    right: -20px;
+	}
+	section#p4 {
+	    width: 100%;
+	    height: auto;
+	    background-size: cover !important; 
+	}
+	.p4-container {
+	    width: 90%;
+	    height: auto;
+	}
+	.p4-container > h3 {
+	    font-size: 1rem;
+    	line-height: 1.15rem;
+    	margin: 10px 0;
+	}
+	.p4-container > h1 {
+	    font-size: 2rem;
+	    line-height: 2.3rem;
+	    margin: 20px 0;
+	}
+	.p4-content {
+	    width: 100%;
+	    height: auto;
+	    margin-top: 30px;
+	}
+	a.p4-box {
+	    width: 80%;
+	    height: auto;
+	    margin: 0px 0 15px 0;
+	}
+	.p4-a {
+	    width: 100%;
+	    height: 70px;
+	}
+	.p4-a span {
+	    width: 100%;
+	    height: 68px;
+	    background-position: center !important;
+	}
+	a.p4-box h2 {
+	    font-size: 1rem;
+	    margin: 3px 0 0 0;
+	}
+	section#p5{
+		width: 100%;
+		height: auto;
+	}
+	.webp section#p5{
+		background: url('../imgp/p1bg.webp') no-repeat center;
+		background-size: cover;
+	}
+	.no-webp section#p5{
+		background: url('../img/p1bg.jpg') no-repeat center;
+		background-size: cover;
+	}
+	.p5-fast-container{
+		display: none;
+	}
+	.p5-container-m{
+		display: block;
+	}
+}
+
+@media screen and (min-width:376px) and (max-width:540px){
+
+}
+
+@media screen and (min-width:325px) and (max-width:374px){
+	.chara-content-in {
+	    height: calc(100vh - 200px);
+	}
+	#swordshield .c-img {
+	    background-size: 70% !important;
+    	background-position-y: top !important;
+	}
+	#poleaxe .c-img{
+		background-position-x: 50px !important;
+		background-size: cover !important;
+    	background-position-y: top !important;
+	}
+	#spear .c-img {
+	    background-size: 80% !important;
+    	background-position-y: top !important;
+	}
+	#shortbow .c-img {
+	    background-size: 140% !important;
+    	background-position-y: top !important;
+	}
+	#nodachi .c-img{
+		background-position-x: 10% !important;
+		background-size: 90% !important;
+    	background-position-y: top !important;
+	}
+	#gun .c-img{
+		background-position-x: 40px !important;
+		background-size: 100% !important;
+    	background-position-y: top !important;
+	}
+	#doubleknife .c-img {
+	    background-size: 100% !important;
+    	background-position-y: top !important;
+	}
+	#longbow .c-img{
+		background-position-x: 0px !important;
+		background-size: 130% !important;
+    	background-position-y: top !important;
+	}
+	#longknife .c-img{
+		background-position-x: 65% !important;
+		background-size:90% !important;
+    	background-position-y: top !important;
+	}
+	#knifeshield .c-img{
+		background-size:90% !important;
+    	background-position-y: top !important;
+	}
+	#hammer .c-img{
+		background-position-x: 25px !important;
+		background-size:120% !important;
+    	background-position-y: top !important;
+	}
+}
+
+/*for 手機裝置(螢幕尺寸<320px)*/
+@media screen and (max-width:320px){
+	section#p0{
+		height: 100vh;
+	}
+	.p0-logo{
+		height: 100px;
+	}
+	.p0-title {
+	    margin: 20px auto 10px;
+	}
+	.p0-title h3 {
+	    font-size: 1rem;
+	    line-height: 1rem;
+	}
+	.p0-title h1 {
+		font-size: 2.4rem;
+	    line-height: 2.4rem;
+	    margin: 10px 0 0px 0;
+	}
+	.p0-btns {
+	    margin: 15px auto 0;
+	}
+	.p0-btns a {
+	    width: 90%;
+	    padding: 0 10%;
+	    margin: 10px 0;
+	}
+	.p1-title p {
+	    font-size: 0.875rem;
+	}
+	.chara-content-in {
+	    height: 400px;
+	}
+	#swordshield .c-img {
+	    background-size: 70% !important;
+    	background-position-y: 0 !important;
+	}
+	#poleaxe .c-img{
+		background-position-x: 50px !important;
+		background-size: cover !important;
+    	background-position-y: 0 !important;
+	}
+	#spear .c-img {
+	    background-size: 80% !important;
+    	background-position-y: 0 !important;
+	}
+	#shortbow .c-img {
+	    background-size: 140% !important;
+    	background-position-y: 0 !important;
+	}
+	#nodachi .c-img{
+		background-position-x: 10% !important;
+		background-size: 90% !important;
+    	background-position-y: 0 !important;
+	}
+	#gun .c-img{
+		background-position-x: 40px !important;
+		background-size: 100% !important;
+    	background-position-y: 0 !important;
+	}
+	#doubleknife .c-img {
+	    background-size: 100% !important;
+    	background-position-y: 0 !important;
+	}
+	#longbow .c-img{
+		background-position-x: 0px !important;
+		background-size: 130% !important;
+    	background-position-y: 0 !important;
+	}
+	#longknife .c-img{
+		background-position-x: 65% !important;
+		background-size:90% !important;
+    	background-position-y: 0 !important;
+	}
+	#knifeshield .c-img{
+		background-size:90% !important;
+    	background-position-y: 0 !important;
+	}
+	#hammer .c-img{
+		background-position-x: 25px !important;
+		background-size:120% !important;
+    	background-position-y: 0 !important;
+	}
+	.p2-container > h1 {
+	    font-size: 1.5rem;
+	    line-height: 1.8rem;
+	    margin: 15px 0 0px 0;
+	}
+	.p2-container > h3 {
+	    font-size: 0.875rem;
+	}
+	.p2-slide-l .slick-list {
+	    overflow: hidden !important;
+	}
+	.p2-slider-l a {
+	    width: 100%;
+	}
+	.p3-container > h1 {
+	    font-size: 1.5rem;
+	    line-height: 1.8rem;
+	    margin: 15px 0 0px 0;
+	}
+	.p3-container > h3 {
+	    font-size: 0.875rem;
+	}
+}
+
