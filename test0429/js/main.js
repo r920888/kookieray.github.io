@@ -2,8 +2,13 @@ $(function(){
 
   if (window.innerWidth < 768) {
       $(".p0-bg").remove();
-  } else {
-      
+      $(".p1bgpr-1").remove();
+      $(".p1bgpr-2").remove();
+      $(".c-video-container").remove();
+  } else if (window.innerWidth > 768){
+      document.write( 
+        '<script src="js/lity.js"></script>'
+      )
   }
 
 
