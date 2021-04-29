@@ -1115,6 +1115,9 @@ h2.c-id{
 	top: 50%;
 	transform: translate(-50%,-50%);
 }
+.c-video-container a video source{
+	display: none;
+}
 .c-video-container a:before{
 	content: '';
 	position: absolute;
