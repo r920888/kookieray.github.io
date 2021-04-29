@@ -27,7 +27,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style-ie.css">
 	<link rel="stylesheet" type="text/css" href="css/rwd.css">
-
+	<script type="text/javascript">
+		if (window.innerWidth < 768) {
+		      $(".p0-bg").remove();
+		      $(".p1bgpr-1").remove();
+		      $(".p1bgpr-2").remove();
+		      $(".c-video-container").remove();
+		  } else if (window.innerWidth > 768){
+		      document.write( 
+		        '<script src="js/lity.js"></script>'
+		      )
+		  }
+	</script>
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
