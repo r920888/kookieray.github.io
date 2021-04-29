@@ -8,7 +8,7 @@ $(function(){
   } else if (window.innerWidth > 768){
       document.write( 
         '<script src="js/lity.js"></script>'
-      )
+      );
   }
 
 
