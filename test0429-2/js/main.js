@@ -4,8 +4,10 @@ $(function(){
       $(".p0-bg").remove();
       $(".p1bgpr-1").remove();
       $(".p1bgpr-2").remove();
-  } else {
-      
+  } else if (window.innerWidth > 768){
+      document.write( 
+        '<script src="js/lity.js"></script>'
+      )
   }
 
 

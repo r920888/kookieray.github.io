@@ -521,7 +521,7 @@
 	    margin: 20px auto;
 	}
 	.p2-slider-l-bg{
-		display: none;
+		display: block;
 	}
 	.p2-slider-l a iframe{
 		display: block;
