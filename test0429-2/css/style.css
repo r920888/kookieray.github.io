@@ -1108,6 +1108,7 @@ h2.c-id{
 	overflow: hidden;
 }
 .c-video-container a video{
+	display: none;
 	position: relative;
 	width: 105%;
 	left: 50%;

@@ -47,6 +47,9 @@
 	.join-container {
 	    width: 100%;
 	}
+	.c-video-container a video{
+		display: block;
+	}
 }	
 
 /*for 平板+手機裝置*/
