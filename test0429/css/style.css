@@ -1141,136 +1141,58 @@ h2.c-id{
 	transform: translate(-50%,-50%);
 	z-index: 5;
 }
-.c-img{
+img.c-img{
 	position: absolute;
-	width: 100%;
+	width: max-content;
 	height: 520px;
-	left: 50%;
+	left: 5%;
 	bottom: 0;
-	transform: translateX(-50%);
 	z-index: 2;
 	transition: 0.3s ease-in-out;
 }
 /*----------------------劍盾swordshield----------------------*/
-.webp #swordshield .c-img{
-	background: url('../imgp/c-swordshield.webp') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
-}
-.no-webp #swordshield .c-img{
-	background: url('../img/c-swordshield.png') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
+#swordshield .c-img{
+
 }
 /*----------------------戰斧poleaxe----------------------*/
-.webp #poleaxe .c-img{
-	background: url('../imgp/c-poleaxe.webp') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
-}
-.no-webp #poleaxe .c-img{
-	background: url('../img/c-poleaxe.png') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
+#poleaxe .c-img{
+
 }
 /*----------------------戰矛spear----------------------*/
-.webp #spear .c-img{
-	background: url('../imgp/c-spear.webp') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
-}
-.no-webp #spear .c-img{
-	background: url('../img/c-spear.png') no-repeat;
-	background-position-x: 100px;
-	background-position-y:bottom; 
+#spear .c-img{
+
 }
 /*----------------------短弓shortbow----------------------*/
-.webp #shortbow .c-img{
-	background: url('../imgp/c-shortbow.webp') no-repeat;
-	background-position-x: 60px;
-	background-position-y:bottom; 
-}
-.no-webp #shortbow .c-img{
-	background: url('../img/c-shortbow.png') no-repeat;
-	background-position-x: 60px;
-	background-position-y:bottom; 
+#shortbow .c-img{
+
 }
 /*----------------------野太刀nodachi----------------------*/
-.webp #nodachi .c-img{
-	background: url('../imgp/c-nodachi.webp') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
-}
-.no-webp #nodachi .c-img{
-	background: url('../img/c-nodachi.png') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
+#nodachi .c-img{
+
 }
 /*----------------------火銃gun----------------------*/
-.webp #gun .c-img{
-	background: url('../imgp/c-gun.webp') no-repeat;
-	background-position-x: 80px;
-	background-position-y:bottom; 
-}
-.no-webp #gun .c-img{
-	background: url('../img/c-gun.png') no-repeat;
-	background-position-x: 80px;
-	background-position-y:bottom; 
+#gun .c-img{
+
 }
 /*----------------------雙刀doubleknife----------------------*/
-.webp #doubleknife .c-img{
-	background: url('../imgp/c-doubleknife.webp') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
-}
-.no-webp #doubleknife .c-img{
-	background: url('../img/c-doubleknife.png') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
+#doubleknife .c-img{
+
 }
 /*----------------------長弓longbow----------------------*/
-.webp #longbow .c-img{
-	background: url('../imgp/c-longbow.webp') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
-}
-.no-webp #longbow .c-img{
-	background: url('../img/c-longbow.png') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
+#longbow .c-img{
+
 }
 /*----------------------關刀longknife----------------------*/
-.webp #longknife .c-img{
-	background: url('../imgp/c-longknife.webp') no-repeat;
-	background-position-x: 0px;
-	background-position-y:bottom; 
-}
-.no-webp #longknife .c-img{
-	background: url('../img/c-longknife.png') no-repeat;
-	background-position-x: 0px;
-	background-position-y:bottom; 
+#longknife .c-img{
+
 }
 /*----------------------刀盾knifeshield----------------------*/
-.webp #knifeshield .c-img{
-	background: url('../imgp/c-knifeshield.webp') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
-}
-.no-webp #knifeshield .c-img{
-	background: url('../img/c-knifeshield.png') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
+#knifeshield .c-img{
+
 }
 /*----------------------戰錘hammer----------------------*/
-.webp #hammer .c-img{
-	background: url('../imgp/c-hammer.webp') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
-}
-.no-webp #hammer .c-img{
-	background: url('../img/c-hammer.png') no-repeat;
-	background-position-x: 20px;
-	background-position-y:bottom; 
+#hammer .c-img{
+	
 }
 ul.slick-dots{
 	position: relative;
