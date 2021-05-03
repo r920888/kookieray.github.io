@@ -29,12 +29,7 @@
 }	
 
 @media screen and (min-width:1024px){
-	.c-video-container a video{
-		display: block;
-	}
-	.c-video-container a video source{
-		display: block;
-	}
+
 }
 
 @media screen and (min-width:1024px) and (max-width:1042px){

@@ -1108,15 +1108,11 @@ h2.c-id{
 	overflow: hidden;
 }
 .c-video-container a video{
-	display: none;
 	position: relative;
 	width: 210px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
-}
-.c-video-container a video source{
-	display: none;
 }
 .c-video-container a:before{
 	content: '';
