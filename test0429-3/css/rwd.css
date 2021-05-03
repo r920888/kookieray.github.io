@@ -28,10 +28,6 @@
 	}
 }	
 
-@media screen and (min-width:1024px){
-
-}
-
 @media screen and (min-width:1024px) and (max-width:1042px){
 	ul#nav li {
 	    margin: 0 15px;
@@ -525,7 +521,7 @@
 	    margin: 20px auto;
 	}
 	.p2-slider-l-bg{
-		display: block;
+		display: none;
 	}
 	.p2-slider-l a iframe{
 		display: block;
